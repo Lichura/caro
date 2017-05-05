@@ -1,0 +1,29 @@
+// Place all the styles related to the Cuestionario controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+.container{
+	width: 100%;
+
+}
+.row{
+	height: 100vh;
+	width: 100%;
+	background-color: whitesmoke;
+}
+
+
+.col{
+flex: 1;
+	display: flex;                 /* create nested flex container */
+    flex-wrap: wrap;               /* enable flex items to wrap */ 
+    justify-content: center;       /* center flex items on each line */
+}
+.boton{
+	height: 50px;
+	width: 50px;
+	align-self: flex-end;
+
+}
