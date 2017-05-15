@@ -21,9 +21,11 @@ flex: 1;
     flex-wrap: wrap;               /* enable flex items to wrap */ 
     justify-content: center;       /* center flex items on each line */
 }
+
+
 .boton{
 	height: 50px;
 	width: 50px;
 	align-self: flex-end;
-
+	margin-top: 100vh;
 }
